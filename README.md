@@ -4,7 +4,7 @@ Group Members: Evan Zeglinski-Spinney, Daniel Andreev, Terrence Manly-Elliott an
 Website Link: TBD...
 
 Images:
-    The images used in teh website where not used by made or produced by our group. All taken from the web.
+    The images used in the website where not used by made or produced by our group. All taken from the web.
 
     - 
     - 
