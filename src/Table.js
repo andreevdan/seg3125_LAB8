@@ -9,6 +9,7 @@ function Table(props) {
       <thead>
         <tr>
           <th>Ranking</th>
+          <th>ID</th>
           <th>Model</th>
           <th>Year</th>
           <th>Safety</th>
@@ -21,6 +22,7 @@ function Table(props) {
         {data.map((row, index) => (
           <tr key={index}>
           <td>{row.ranking}</td>
+          <td>{row.id}</td>
           <td>{row.model}</td>
           <td>{row.year}</td>
           <td>{row.safety}</td>
