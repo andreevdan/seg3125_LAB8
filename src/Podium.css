@@ -1,7 +1,12 @@
 .podium {
     display: flex;
     justify-content: space-between;
-    margin-top: 1rem;
+    align-items: flex-end;
+    margin-top: 2rem;
+    width: 80%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .podium-item {
@@ -13,39 +18,63 @@
     background-color: #f5f5f5;
     border-radius: 10px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-    padding: 1rem;
+    padding: 2rem 1rem;
     position: relative;
     overflow: hidden;
   }
   
   .podium-item h3 {
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: bold;
     margin-bottom: 0.5rem;
     color: #c0c0c0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
   }
   
   .podium-item h4 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
-    margin-top: 0.5rem;
+    margin-top: 1.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
   }
   
   .podium-item img {
-    width: 80%;
+    width: 100%;
     height: auto;
-    margin-top: 1rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
   }
   
   .gold {
     background-color: #ffd700;
+    order: 2;
+    padding-bottom: 3rem;
+  }
+  
+  .gold h3 {
+    color: #ffffff;
+  }
+
+  .silver h3 {
+    color: #ffffff;
+  }
+
+  .bronze h3 {
+    color: #ffffff;
+  }
+  
+  .gold h4 {
+    color: #000000;
   }
   
   .silver {
     background-color: #c0c0c0;
+    order: 1;
   }
   
   .bronze {
     background-color: #cd7f32;
+    order: 3;
   }
   
