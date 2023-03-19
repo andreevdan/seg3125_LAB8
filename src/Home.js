@@ -1,8 +1,12 @@
 import React from 'react';
 import './Home.css';
 import CarCard from './CarCard';
+import { useNavigate } from 'react-router-dom';
+
+
 
 const Home = () => {
+  const navigate = useNavigate();
   return (
     <div className="container">
       <h1 className='title'>Welcome to our Car Voting Website!</h1>
@@ -92,6 +96,14 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <button
+        className="request-button"
+        onClick={() => {
+          navigate('/request');
+        }}
+      >
+        Request a car
+      </button>
     </div>
   );
 };
