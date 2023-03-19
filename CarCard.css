@@ -1,0 +1,37 @@
+.car-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 15px;
+    width: 300px;
+  }
+  
+  .car-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .attributes {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .attribute {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+    font-size: 14px;
+  }
+  
+  .attribute-title {
+    font-weight: bold;
+  }
+  
