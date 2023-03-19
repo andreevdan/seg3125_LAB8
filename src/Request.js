@@ -13,6 +13,11 @@ const Request = () => {
         <textarea id="description" name="description" rows="5" cols="50"></textarea>
         <br/>
         <br/>
+        <p>Additonal Comments:</p>
+        <label for="comments"></label>
+        <textarea id="comments" name="comments" rows="5" cols="50"></textarea>
+        <br/>
+        <br/>
         <input type="submit" value="Submit" className='submit-button'></input>
       </form>
     </div>
