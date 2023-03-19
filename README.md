@@ -1,3 +1,26 @@
+Group Number: Group 18
+Group Members: Evan Zeglinski-Spinney, Daniel Andreev, Terrence Manly-Elliott and Azan Mubashar
+Website Link: TBD...
+
+Images:
+    The images used in teh website where not used by made or produced by our group. All taken from the web.
+    - https://www.motortrend.com/uploads/sites/5/2021/05/2021-honda-accord-sport-2-0t-15.jpg?fit=around%7C875:492
+    - https://hips.hearstapps.com/hmg-prod/images/2023-honda-cr-v-hybrid-awd-touring-414-edit-1665754236.jpg?crop=0.654xw:0.734xh;0.117xw,0.266xh&resize=640:*
+    - https://hips.hearstapps.com/hmg-prod/images/2022-honda-civic-sport-287-1648742553.jpg?crop=0.674xw:0.568xh;0.0717xw,0.415xh&resize=1200:*
+    - https://hips.hearstapps.com/hmg-prod/images/c-005-1500x1000-1652713137.jpg?crop=0.891xw:1.00xh;0.0554xw,0&resize=640:*
+    - https://media.ed.edmunds-media.com/toyota/corolla/2023/oem/2023_toyota_corolla_sedan_xse_fq_oem_1_1600.jpg
+    - https://hips.hearstapps.com/hmg-prod/images/2023-toyota-highlander-front-three-quarters-1652203180.jpg?crop=0.871xw:0.655xh;0.0749xw,0.213xh&resize=1200:*
+    - https://www.topgear.com/sites/default/files/cars-car/image/2021/02/cx-5-skyactiv-g-awd-gt-sport-auto-action-3.jpg
+    - https://hips.hearstapps.com/hmg-prod/images/2021-mazda-cx-3-mmp-1597151652.jpg?crop=0.787xw:0.882xh;0.0994xw,0.118xh&resize=640:*
+    - https://www.motortrend.com/uploads/2022/11/2023-Mazda-Mazda3-Sedan-AWD-Turbo-exterior-16.jpg
+
+
+#Contrbuters:
+- Daniel Andreev 300168201
+- Evan Zeglinski-Spinney 300137309
+- Azan Mubashar 300175847
+- Terrence Manly-Elliott 300078515
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
