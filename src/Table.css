@@ -1,0 +1,32 @@
+.table {
+  font-family: Arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+/* Set alternating row colors */
+.table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Set hover effect */
+.table tbody tr:hover {
+  background-color: #ddd;
+}
+
+/* Set selected row color */
+.table tbody tr.selected {
+  background-color: #aaf;
+}
