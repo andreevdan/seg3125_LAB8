@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import './Request.css';
+import HelpButton from './HelpButton';
 
 const Request = () => {
   return (
     <div className="request-container">
+      <div className='help'><HelpButton/></div>
       <h1>Request a Car</h1>
       <form>
         <label for="image">Upload an car image: </label>

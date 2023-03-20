@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css';
 import CarCard from './CarCard';
+import HelpButton from './HelpButton';
 import { useNavigate } from 'react-router-dom';
 
 
@@ -9,6 +10,7 @@ const Home = () => {
   const navigate = useNavigate();
   return (
     <div className="container">
+      <div className='help'><HelpButton/></div>
       <h1 className='title'>Welcome to our Car Voting Website!</h1>
 
       <div className="car-grid">

@@ -34,4 +34,12 @@
   .about-us li {
     margin-bottom: 10px;
   }
+
+  .help{
+    position: fixed;
+    top: 50px;
+    right: 1px;
+    z-index: 9999;
+  }
+  
   

@@ -3,6 +3,7 @@ import Table from './Table';
 import Podium from './Podium';
 import './Table.css';
 import './Podium.css';
+import HelpButton from './HelpButton';
 
 function Results(){
   const data = [
@@ -141,6 +142,7 @@ function Results(){
 
   return (
     <div>
+      <div className='help'><HelpButton/></div>
       <br />
       <br />
       <h1>Top 3 podium</h1>

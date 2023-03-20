@@ -1,12 +1,15 @@
 import React from 'react';
 import CarCard from './CarCard';
 import CarVoteCard from './CarVoteCard';
+import './Vote.css';
+import HelpButton from './HelpButton';
 import {Button} from 'react-bootstrap';
 
 
 const Vote = () => {
   return (
     <div>
+      <div className='help'><HelpButton/></div>
       <div className="container">
         <h1 className='title' style={{marginTop: 50}}>Vote below to help us find the best car</h1>
         <p className='title'>Enter speed, reliability and comfort ratings for at least one of the below cars and submit the form to update our results!</p>

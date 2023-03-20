@@ -12,3 +12,10 @@
   border-radius: 5px;
   cursor: pointer;
 }
+
+.help{
+  position: fixed;
+  top: 50px;
+  right: 1px;
+  z-index: 9999;
+}
