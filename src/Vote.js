@@ -3,10 +3,11 @@ import CarCard from './CarCard';
 import CarVoteCard from './CarVoteCard';
 import './Vote.css';
 import HelpButton from './HelpButton';
-import {Button} from 'react-bootstrap';
+import { useNavigate } from 'react-router-dom';
 
 
 const Vote = () => {
+  const navigate = useNavigate();
   return (
     <div>
       <div className='help'><HelpButton/></div>
@@ -70,10 +71,17 @@ const Vote = () => {
           </div>
         </div>
       </div>
-      <div>
-        <Button variant="contained" style={{backgroundColor:"forestGreen", color: "white", borderRadius:15, height:80, width:200, fontSize: 30, alignItems: "center", justifyContent: "center", textAlign: "center"}}>Submit</Button>
-      </div>
+
+      <button
+        className="request-button"
+        onClick={() => {
+          alert("Your vote has been submitted"); 
+        }}
+      >
+        Submit your vote!
+      </button>
     </div>
+    
   );
 };
 
