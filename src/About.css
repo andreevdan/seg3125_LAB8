@@ -1,0 +1,37 @@
+
+.about-us {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: justify;
+  }
+  
+  .about-us h1 {
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .about-us h2 {
+    font-size: 2em;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .about-us p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .about-us ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    font-size: 1.2em;
+  }
+  
+  .about-us li {
+    margin-bottom: 10px;
+  }
+  
