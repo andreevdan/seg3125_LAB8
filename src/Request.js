@@ -1,10 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
+import './Request.css';
 
 const Request = () => {
   return (
-    <div>
-      <h1>About Us</h1>
-      <p>We are a car voting website...</p>
+    <div className="request-container">
+      <h1>Request a Car</h1>
+      <form>
+        <label for="image">Upload an car image: </label>
+        <input type="file" id="image" name="image" accept="image" />
+        <p>Car Description:</p>
+        <label for="description"></label>
+        <textarea id="description" name="description" rows="5" cols="50"></textarea>
+        <br/>
+        <br/>
+        <p>Additonal Comments:</p>
+        <label for="comments"></label>
+        <textarea id="comments" name="comments" rows="5" cols="50"></textarea>
+        <br/>
+        <br/>
+        <input type="submit" value="Submit" className='submit-button'></input>
+      </form>
     </div>
   );
 };
