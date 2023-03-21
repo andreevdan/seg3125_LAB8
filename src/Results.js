@@ -6,7 +6,11 @@ import './Podium.css';
 import HelpButton from './HelpButton';
 
 function Results(){
-  const data = [
+  //TODO: Fix
+  //get data from json file:
+  let infoRead = JSON.parse('data.json');
+
+    const data = [
     {
       id: 1,
       ranking: 1,
@@ -79,7 +83,6 @@ function Results(){
       image:
         'https://hips.hearstapps.com/hmg-prod/images/2023-toyota-highlander-front-three-quarters-1652203180.jpg?crop=0.871xw:0.655xh;0.0749xw,0.213xh&resize=1200:*',
     },
-  
     {
       id: 7,
       ranking: 2,
@@ -124,7 +127,12 @@ function Results(){
       reliability: 9,
       image: 'https://hips.hearstapps.com/hmg-prod/images/2023-toyota-highlander-front-three-quarters-1652203180.jpg?crop=0.871xw:0.655xh;0.0749xw,0.213xh&resize=1200:*'
     }
-  ];
+    ];
+
+    //If data read feals, use const data placeholder, else use json file data
+    if(infoRead != null){
+      data = infoRead;
+    }
 
   const updateRanking = () => {
     data.sort((a, b) => {

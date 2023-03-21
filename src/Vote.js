@@ -1,13 +1,22 @@
 import React from 'react';
-import CarCard from './CarCard';
 import CarVoteCard from './CarVoteCard';
 import './Vote.css';
 import HelpButton from './HelpButton';
-import { useNavigate } from 'react-router-dom';
-
 
 const Vote = () => {
-  const navigate = useNavigate();
+
+  //TODO: Fix
+  //get data from json file:
+  let infoRead = JSON.parse('data.json');
+
+  //update data:
+    //add to infoRead
+    //info = infoRead
+
+  //write data to json file:
+    //data = JSON.stringify(info);
+    //fs.writeFileSync('./data/' + fileName + '.json', data);
+
   return (
     <div>
       <div className='help'><HelpButton/></div>
