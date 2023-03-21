@@ -19,7 +19,7 @@ const HelpButton = () => {
         <div className="modal">
           <div className="modal-content">
             <span className="close" onClick={handleCloseModal}>&times;</span>
-            <p>Please email us at <a href="mailto:labgroup@gmail.com">labgroup@gmail.com</a> for any assistance.</p>
+            <p>Please email us at <a href="mailto:favouritecars@gmail.com">favouritecars@gmail.com</a> for any assistance.</p>
           </div>
         </div>
       )}
