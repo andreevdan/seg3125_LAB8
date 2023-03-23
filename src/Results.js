@@ -8,7 +8,7 @@ import HelpButton from './HelpButton';
 function Results(){
   //TODO: Fix
   //get data from json file:
-  let infoRead = JSON.parse('data.json');
+  //let infoRead = JSON.parse('data.json');
 
     const data = [
     {
@@ -130,9 +130,9 @@ function Results(){
     ];
 
     //If data read feals, use const data placeholder, else use json file data
-    if(infoRead != null){
-      data = infoRead;
-    }
+    //if(infoRead != null){
+    //  data = infoRead;
+    //}
 
   const updateRanking = () => {
     data.sort((a, b) => {

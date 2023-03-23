@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <div className="container">
       <div className='help'><HelpButton/></div>
-      <h1 className='title'>Welcome to our Car Voting Website!</h1>
+      <h1 style={{marginTop: 50}} className='title'>Welcome to our Car Voting Website!</h1>
 
       <div className="car-grid">
 
