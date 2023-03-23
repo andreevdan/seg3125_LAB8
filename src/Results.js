@@ -153,11 +153,11 @@ function Results(){
       <div className='help'><HelpButton/></div>
       <br />
       <br />
-      <h1>Top 3 podium</h1>
+      <h1 style={{textAlign: "center", marginTop: 50}}>Top 3 podium</h1>
       <Podium data={data}/>
       <br />
       <br />
-      <h1>Overall results of all featured cars</h1>
+      <h1 style={{textAlign: "center"}}>Overall results of all featured cars</h1>
       <Table data={data} />
     </div>
   );
