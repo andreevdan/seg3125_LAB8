@@ -65,6 +65,57 @@ const Vote = () => {
     console.log("Eigth: "+eigthSpeed+", "+eigthComfort+", "+eigthRel);
     console.log("Ninth: "+ninthSpeed+", "+ninthComfort+", "+ninthRel);
     //Send data to json:
+    const data = [firstSpeed,firstComfort,firstRel 
+                  ,secondSpeed,secondComfort,secondRel
+                  ,thirdSpeed,thirdComfort,thirdRel
+                  ,fourthSpeed,fourthComfort,fourthRel
+                  ,fifthSpeed,fifthComfort,fifthRel
+                  ,sixthSpeed,sixthComfort,sixthRel
+                  ,seventhSpeed,seventhComfort,seventhRel
+                  ,eigthSpeed,eigthComfort,eigthRel
+                  ,ninthSpeed,ninthComfort,ninthRel];
+
+    let emptyData = true;
+    for(const counter in data){
+      if (data[counter] !== ""){
+        emptyData = false;
+      }
+    }
+    if(emptyData === true){
+      alert("Please add at least one value before submitting your vote!");
+      return;
+    }
+
+    //Send data
+
+    //Reset form
+    setFirstSpeed('');
+    setFirstComfort('');
+    setFirstRel(''); 
+    setSecondSpeed('');
+    setSecondComfort('');
+    setSecondRel('');
+    setThirdSpeed('');
+    setThirdComfort('');
+    setThirdRel('');
+    setFourthSpeed('');
+    setFourthComfort('');
+    setFourthRel('');
+    setFifthSpeed('');
+    setFifthComfort('');
+    setFifthRel('');
+    setSixthSpeed('');
+    setSixthComfort('');
+    setSixthRel('');
+    setSeventhSpeed('');
+    setSeventhComfort('');
+    setSeventhRel('');
+    setEigthSpeed('');
+    setEigthComfort('');
+    setEigthRel('');
+    setNinthSpeed('');
+    setNinthComfort('');
+    setNinthRel('');
     alert("Vote submitted!");
   }
   return (
