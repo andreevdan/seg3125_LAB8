@@ -1,4 +1,4 @@
-[
+{ "data" : [
     {
       "id": 1,
       "ranking": 1,
@@ -116,3 +116,4 @@
       "image": "https://hips.hearstapps.com/hmg-prod/images/2023-toyota-highlander-front-three-quarters-1652203180.jpg?crop=0.871xw:0.655xh;0.0749xw,0.213xh&resize=1200:*"
     }
   ]
+}
