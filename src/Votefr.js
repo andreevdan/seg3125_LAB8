@@ -133,8 +133,8 @@ const Votefr = () => {
     <div>
       <div className='help'><HelpButton /></div>
       <div className="container">
-        <h1 className='title' style={{ marginTop: 50 }}>Vote below to help us find the best car</h1>
-        <p>Enter speed, reliability and comfort ratings for at least one of the below cars and submit the form to update our results!</p>
+        <h1 className='title' style={{ marginTop: 50 }}>Votez ci-dessous pour nous aider à trouver la meilleure voiture</h1>
+        <p>Entrez les cotes de vitesse, de fiabilité et de confort pour au moins une des voitures ci-dessous et soumettez le formulaire pour mettre à jour nos résultats !</p>
         <form onSubmit={handleSubmit}>
           <div className="car-grid">
             <div className="car-row">
