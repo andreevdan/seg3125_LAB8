@@ -6,6 +6,7 @@ import Navbar from './Navbar';
 import Results from './Results';
 import Vote from './Vote';
 import About from './About';
+import FR from './FR';
 
 
 const App = () => {
@@ -19,6 +20,8 @@ const App = () => {
             <Route path='/result' element={<Results/>} />
             <Route path='/vote' element={<Vote/>} />
             <Route path='/about' element={<About/>} />
+            <Route path='/FR' element={<FR/>} />
+            
           </Routes>
         </div>
       </BrowserRouter>

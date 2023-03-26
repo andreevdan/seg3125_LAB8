@@ -9,6 +9,8 @@ const Navbar = () => {
         <li><a href='/about' className="navbar-link" style={{marginRight: 80}}>About</a></li>
         <li><a href='/vote' className="navbar-link" style={{marginRight: 80}}>Vote</a></li>
         <li><a href='/result' className="navbar-link">Results</a></li>
+
+        <li><a href='/FR' className="navbar-link">FR</a></li>
       </ul>
     </nav>
   );
