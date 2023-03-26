@@ -1,18 +1,28 @@
 
 .about-us {
-    max-width:100%;
+    max-width: 800px;
     margin: 0 auto;
-    padding: 20px;
-    box-sizing: border-box;
-    text-align: center;
+    padding: 50px;
+    text-align: justify;
   }
   
-.about-us p {
-  font-size: 1.2em;
-  line-height: 1.5;
-  max-width: 800px;
-  margin: auto;
-}
+  .about-us h1 {
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .about-us h2 {
+    font-size: 2em;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .about-us p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
   
   .about-us ul {
     list-style: none;
@@ -31,10 +41,5 @@
     right: 1px;
     z-index: 9999;
   }
-
-  .title {
-    margin-top: 60px;
-    text-align: center;
-  }
-
+  
   

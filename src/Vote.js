@@ -123,7 +123,7 @@ const Vote = () => {
       <div className='help'><HelpButton/></div>
       <div className="container">
         <h1 className='title' style={{marginTop: 50}}>Vote below to help us find the best car</h1>
-        <p>Enter speed, reliability and comfort ratings for at least one of the below cars and submit the form to update our results!</p>
+        <p className='title'>Enter speed, reliability and comfort ratings for at least one of the below cars and submit the form to update our results!</p>
         <form onSubmit={handleSubmit}>
           <div className="car-grid">
             <div className="car-row">
