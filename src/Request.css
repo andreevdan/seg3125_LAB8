@@ -1,6 +1,15 @@
 .request-container {
+  max-width: 100%;
   margin: 0 auto;
   padding: 20px;
+  box-sizing: border-box;
+}
+
+.request-container p{
+  font-size: 1.2em;
+  line-height: 1.5;
+  max-width: 800px;
+  margin: auto;
 }
 
 .submit-button {
@@ -13,7 +22,7 @@
   cursor: pointer;
 }
 
-.help{
+.help {
   position: fixed;
   top: 50px;
   right: 1px;

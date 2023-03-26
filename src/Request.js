@@ -8,19 +8,14 @@ const Request = () => {
       <div className='help'><HelpButton/></div>
       <h1 style={{marginTop:50,textAlign:'center'}}>Request a Car</h1>
       <form style={{textAlign:'center'}}>
-        <label for="image">Upload an car image: </label>
-        <br></br>
+        <p>Upload an image:</p>
         <input style = {{marginLeft:'70px'}} type="file" id="image" name="image" accept="image" />
-        <p>Car Description:</p>
+        <p style={{marginTop:"50px"}}>Car Description:</p>
         <label for="description"></label>
-        <textarea style = {{width:'70%'}} id="description" name="description" rows="5" cols="50"></textarea>
-        <br/>
-        <br/>
-        <p>Additonal Comments:</p>
+        <textarea id="description" name="description" rows="10" cols="100"></textarea>
+        <p style={{marginTop:"50px"}}>Additonal Comments:</p>
         <label for="comments"></label>
-        <textarea style = {{width:'70%'}} id="comments" name="comments" rows="5" cols="50"></textarea>
-        <br/>
-        <br/>
+        <textarea id="comments" name="comments" rows="10" cols="100"></textarea>
         <input type="submit" value="Submit" className='request-button'></input>
       </form>
     </div>
