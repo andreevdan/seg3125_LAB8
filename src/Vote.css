@@ -4,3 +4,10 @@
     right: 1px;
     z-index: 9999;
   }
+
+p {
+  font-size: 1.2em;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
