@@ -3,6 +3,7 @@ import React from 'react';
 import './Navbar.css'; // import the CSS file
 import { useState } from 'react';
 
+
 const Navbar = ({ setLanguage }) => {
   return (
     <nav className="navbar">

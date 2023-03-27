@@ -67,17 +67,15 @@ const Vote = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     //Send data to json:
-    const carData = [
-      { id: 1, safety: firstSafety, speed: firstSpeed, comfort: firstComfort, reliability: firstRel },
-      { id: 2, safety: secondSafety, speed: secondSpeed, comfort: secondComfort, reliability: secondRel },
-      { id: 3, safety: thirdSafety, speed: thirdSpeed, comfort: thirdComfort, reliability: thirdRel },
-      { id: 4, safety: fourthSafety, speed: fourthSpeed, comfort: fourthComfort, reliability: fourthRel },
-      { id: 5, safety: fifthSafety, speed: fifthSpeed, comfort: fifthComfort, reliability: fifthRel },
-      { id: 6, safety: sixthSafety, speed: sixthSpeed, comfort: sixthComfort, reliability: sixthRel },
-      { id: 7, safety: seventhSafety, speed: seventhSpeed, comfort: seventhComfort, reliability: seventhRel },
-      { id: 8, safety: eigthSafety, speed: eigthSpeed, comfort: eigthComfort, reliability: eigthRel },
-      { id: 9, safety: ninthSafety, speed: ninthSpeed, comfort: ninthComfort, reliability: ninthRel }
-    ];
+    const data = [firstSpeed,firstComfort,firstRel 
+      ,secondSpeed,secondComfort,secondRel
+      ,thirdSpeed,thirdComfort,thirdRel
+      ,fourthSpeed,fourthComfort,fourthRel
+      ,fifthSpeed,fifthComfort,fifthRel
+      ,sixthSpeed,sixthComfort,sixthRel
+      ,seventhSpeed,seventhComfort,seventhRel
+      ,eigthSpeed,eigthComfort,eigthRel
+      ,ninthSpeed,ninthComfort,ninthRel];
 
     let emptyData = true;
     for (const counter in data) {
